@@ -8,7 +8,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\add-24.png" />
+    <None Remove="Images\clear-24.png" />
+    <None Remove="Images\down-24.png" />
+    <None Remove="Images\opened-folder-24.png" />
+    <None Remove="Images\save-24.png" />
+    <None Remove="Images\trash-can-24.png" />
+    <None Remove="Images\up-24.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ViewModel\ViewModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\add-24.png" />
+    <Resource Include="Images\clear-24.png" />
+    <Resource Include="Images\down-24.png" />
+    <Resource Include="Images\opened-folder-24.png" />
+    <Resource Include="Images\save-24.png" />
+    <Resource Include="Images\trash-can-24.png" />
+    <Resource Include="Images\up-24.png" />
   </ItemGroup>
 
 </Project>
