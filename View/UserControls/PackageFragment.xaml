@@ -20,7 +20,8 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Row="0" Grid.Column="0"
-                   FontWeight="Bold" VerticalAlignment="Center">
+                   FontWeight="Bold" VerticalAlignment="Center"
+                   Margin="0,0,8,0">
             1:
         </TextBlock>
         <Grid Grid.Row="0" Grid.Column="1">
@@ -30,7 +31,8 @@
                 <ColumnDefinition Width="*" MinWidth="128"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0" TextTrimming="CharacterEllipsis"
-                       HorizontalAlignment="Right" VerticalAlignment="Center">
+                       HorizontalAlignment="Right" VerticalAlignment="Center"
+                       Margin="0,0,8,0">
                 Choose data type:
             </TextBlock>
             <ComboBox Grid.Column="1" SelectedIndex="0"
@@ -45,7 +47,7 @@
                 <TextBlock>Custom HEX</TextBlock>
             </ComboBox>
             <CheckBox Grid.Column="2" Content="Little Endian"
-                      VerticalAlignment="Center"/>
+                      VerticalAlignment="Center" Margin="8,0,0,0"/>
         </Grid>
         <Button Grid.Row="0" Grid.Column="2"
                 VerticalAlignment="Center">
